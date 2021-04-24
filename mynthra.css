@@ -1,0 +1,165 @@
+body{
+    font-family: 'catamaran',
+    sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+#headerblock .container{
+    background-color:#fff ;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    box-shadow: 1px 1px 7px 1px #cccccc87;
+    
+}
+
+
+.logoblock{
+    width: 50%;
+    
+    display: flex;
+}
+.searchblock{
+    width: 50%;
+
+    display: flex;
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 85%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+.rightmenu{
+    width: 25%;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+
+}
+.leftul,
+.rightul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content:flex-start;
+
+
+
+} 
+
+
+.leftul li a,
+.rightul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 20px  20px;
+    
+}
+.search input{
+    padding: 12px 50px;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+    width:90% ;
+    border: none;
+}
+.iconparent{
+    position: relative;
+}
+
+.fa-search{
+color: #444;
+position: absolute;
+top: -7px;
+left: 19px;
+}
+
+.rightul li a{
+    padding:20px 10px ;
+    font-size: 13px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.rightul li a span i{
+    font-size: 16px;
+}
+
+.leftul li a:hover{
+    border-bottom: 3px solid red;
+    transform: translate(30px);
+    transition: ease-in all;
+}
+
+
+#sliderBlock .slider-img1{
+    width: 100%;
+    height: 400px;
+}
+#sliderBlock .slider-img2{
+    width: 100%;
+    height: 150px;
+}
+
+#sliderBlock article{
+    margin-top: 20px;
+
+}
+#storeblock{
+    background-color: #fff;
+}
+
+#storeblock article{
+    width: 75%;
+    margin: 0px auto 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+
+}
+
+.stores{
+ 
+ 
+    width: 30%;
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content:space-around;
+    align-items: center;
+    text-transform: uppercase;
+
+
+}
+
+.stores .price{
+    font-size: 45px;
+    font-weight: bold;
+    color: #4f9ab7;
+}
+.stores h1{
+    margin: 0;
+
+}
+.stores p{
+    margin: 0;
+}
